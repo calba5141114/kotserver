@@ -15,7 +15,10 @@ dependencies {
     compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.25'
     compile group: 'ch.qos.logback', name:'logback-classic', version: '1.0.9'
     compile group: 'ch.qos.logback', name:'logback-core', version: '1.0.9'
-    compile group: 'org.jetbrains.kotlin', name: 'kotlin-nosql-mongodb', version: '0.1-SNAPSHOT'
+    compile 'org.litote.kmongo:kmongo:3.10.0'
+    compile 'org.litote.kmongo:kmongo-async:3.10.0'
+    compile 'org.litote.kmongo:kmongo-coroutine:3.10.0'
+
 }
 
 compileKotlin {
